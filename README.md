@@ -4,16 +4,35 @@ Project Manager: Nik Seif
 
 ## Table of Contents
   - [Abstract](#abstract)
+  - [Install + Setup Instructions](#install)
   - [Technologies](#technologies)
   - [Illustrations](#illustrations)
-  - [Install + Setup](#set-up)
   - [Contributors](#contributors)
   - [Wins](#wins)
-  - [Challenges + Improvements](#challenges-+-Improvements)
+  - [Challenges](#challenges)
   - [Project Specs](#project-specs)
 
 ## Abstract
 This was a group project to build an activity tracker for many users over many days. Our goal was to present a useful dashboard for a user to view and see their latest activity data, goals, and milestones as well as add new data to each category.
+
+## Install
+  1. clone down the repository
+  2. ```cd``` into the repository
+  3. from the command line:
+  ```bash
+    npm install
+    npm install -g sass
+    npm install sass-loader sass webpack --save-dev
+    npm install chart.js
+    npm start
+  ```
+  4. clone this [local server](https://github.com/turingschool-examples/fitlit-api)
+  5. ```cd``` into the API repository
+  6. from the command line:
+  ```bash
+    npm install
+    npm start
+  ```
 
 ## Technologies
   - Javascript
@@ -57,16 +76,6 @@ This was a group project to build an activity tracker for many users over many d
 
   <img width="250" alt="filled_out_form" src="https://user-images.githubusercontent.com/83175748/140832039-b77e977e-3636-4ca0-9d58-6145a33cdbe9.png">
 
-## Install + Setup
-  - clone down the repository
-  - npm install
-  - npm install -g sass
-  - npm install sass-loader sass webpack --save-dev
-  - npm install chart.js
-  - npm start
-  - run local server
-  - copy URL into browser to view page
-
 ## Contributors
   - [August Reid](https://github.com/augustreid)
   - [Eric Wang](https://github.com/ewang0)
@@ -81,7 +90,7 @@ This was a group project to build an activity tracker for many users over many d
   - Learned new techniques such as utilizing POST requests, additional input field types, SASS.
   - Ensured the project exceeded accessibility standards by utilizing Aria to maintain a Lighthouse audit above 90%.
 
-## Challenges + Improvements
+## Challenges
   - Increased complexity over all throughout project spec.
   - Delegation of work division between multiple team members.
   - Technical challenges with POST requests.
