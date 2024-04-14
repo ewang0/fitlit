@@ -13,7 +13,7 @@ Project Manager: Nik Seif
   - [Project Specs](#project-specs)
 
 ## Abstract
-This was a group project to build an activity tracker for many users over many days. Our goal was to present a useful dashboard for a user to view and see their latest activity data, goals, and milestones as well as add new data to each category.
+This was a group project to build an activity tracker. Our goal was to present a useful dashboard for a user to view and see their latest activity data, goals, and milestones as well as add new data to each category.
 
 ## Install
   1. clone down the repository
